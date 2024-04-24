@@ -1,8 +1,11 @@
 # ai-image-generator
 1. create virtualenv env and activate it.
-2. install requirements.txt using "pip install -r requirements.txt".
-3. install redis or user redis docker image.
-4. create a .env and fill it with required credentials.
+2. install requirements.txt using
+   ```
+   pip install -r requirements.txt
+   ```
+5. install redis or user redis docker image.
+6. create a .env and fill it with required credentials.
    ```
    API_HOST=https://api.stability.ai
    STABILITY_API_KEY=sk-mop2***************
