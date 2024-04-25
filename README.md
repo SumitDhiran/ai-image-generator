@@ -48,4 +48,18 @@
     ```
     to generate 5 images based on 5 given prompts, if prompts are not given default prompts are used.
 19. the images data is being stored in Database, you can use different Datbase.
-20. additionally the images are being stored under image directory inside out folder. 
+20. additionally the images are being stored under image directory inside out folder.
+
+## start using docker
+21. install docker and docker compose and run
+    ```
+    change 
+    CELERY_BROKER_URL = "redis://localhost:6379"
+    CELERY_RESULT_BACKEND = "redis://localhost:6379"
+    to
+    CELERY_BROKER_URL = "redis://redis:6379"
+    CELERY_RESULT_BACKEND = "redis://redis:6379"
+    then
+    docker-compose up
+    ```
+
