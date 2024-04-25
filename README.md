@@ -34,7 +34,7 @@
     http://0.0.0.0:8000/api/token/
     ```
     endpoint to generate jwt token for authentication the API(use username and password for superadmin previously created)
-16. to run celery open another terminal and eneter
+16. to run celery open another terminal and enter
     ```
     python -m celery -A chaotix worker -l info
     ```
@@ -55,7 +55,7 @@
 20. additionally the images are being stored under image directory inside out folder.
 
 ## start using docker
-   install docker and docker compose and run
+21. install docker and docker compose and run
     ```
     change 
     CELERY_BROKER_URL = "redis://localhost:6379"
