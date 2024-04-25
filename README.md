@@ -55,7 +55,7 @@
 20. additionally the images are being stored under image directory inside out folder.
 
 ## start using docker
-21. install docker and docker compose and run
+12. install docker and docker compose and run
     ```
     change 
     CELERY_BROKER_URL = "redis://localhost:6379"
