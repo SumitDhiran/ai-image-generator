@@ -26,8 +26,11 @@
 15. go to:
     ```
     http://0.0.0.0:8000/docs
+    ```
     to open swagger.
+    
     use the
+    ```
     http://0.0.0.0:8000/api/token/
     ```
     endpoint to generate jwt token for authentication the API(use username and password for superadmin previously created)
